@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.51" xmlns:fx="http://javafx.com/fxml/1" fx:controller="greg.app.UIController">
+   <children>
+      <Label layoutX="15.0" layoutY="10.0" text="Input" />
+      <TextArea fx:id="inputField" layoutX="15.0" layoutY="25.0" prefHeight="25.0" prefWidth="420.0" />
+      <Button fx:id="parseButton" layoutX="445.0" layoutY="25.0" mnemonicParsing="false" onAction="#parseText" text="Parse" />
+      <Label layoutX="15.0" layoutY="65.0" text="Output" />
+      <TextField fx:id="outputField1" layoutX="15.0" layoutY="80.0" prefHeight="25.0" prefWidth="420.0" />
+      <TextField fx:id="outputField2" layoutX="15.0" layoutY="110.0" prefHeight="25.0" prefWidth="420.0" />
+      <TextField fx:id="outputField3" layoutX="15.0" layoutY="140.0" prefHeight="25.0" prefWidth="420.0" />
+      <Label layoutX="15.0" layoutY="185.0" text="Color" />
+      <TextField fx:id="color" layoutX="15.0" layoutY="200.0" prefHeight="25.0" prefWidth="420.0" />
+      <Label layoutX="15.0" layoutY="235.0" text="Location" />
+      <TextField fx:id="location" layoutX="15.0" layoutY="250.0" prefHeight="25.0" prefWidth="420.0" />
+      <Label layoutX="15.0" layoutY="285.0" text="Website" />
+      <TextField fx:id="website" layoutX="15.0" layoutY="300.0" prefHeight="25.0" prefWidth="420.0" />
+   </children>
+</AnchorPane>
