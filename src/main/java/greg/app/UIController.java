@@ -244,10 +244,9 @@ public class UIController implements Initializable {
                 + "\n" + "[contact-form-7 id=\"25680\" title=\"Portfolio Pricing\"]");
 
         outputField.setText(outputString.toString());
-        outputField1.setText("Title of post: " + "<b>" + make + "-Benz " + model + " AMG</b> - " + name + " Wheels");
-        outputField2.setText("Title of image: " + make + "-Benz " + model + " AMG - " + name + " Wheels");
-        outputField3
-                .setText("Alt of image: " + color + " " + make + "-Benz " + model + " AMG with " + name + " Wheels");
+        outputField1.setText("<b>" + make + "-Benz " + model + " AMG</b> - " + name + " Wheels");
+        outputField2.setText(make + "-Benz " + model + " AMG - " + name + " Wheels");
+        outputField3.setText(color + " " + make + "-Benz " + model + " AMG with " + name + " Wheels");
     }
 
     @FXML
